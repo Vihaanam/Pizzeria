@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pizzeria!</title>
+        <link rel="icon" href="https://thumbs.dreamstime.com/b/pizza-flat-icon-round-colorful-button-circular-vector-sign-lo-logo-illustration-style-design-94805709.jpg">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <h1>Pizzeria!</h1>
+        <h2>Welcome!</h2>
+        <div id="main_div">
+        <div id="about_photo">
+            <img height="400" width="400" src="https://www.freepnglogos.com/uploads/pizza-png/pizza-images-download-pizza-17.png">
+        </div>
+        <div id="contain_menu">
+            <button id="button_show" type="button" onclick="get_menu()">Show menu</button>
+            <div id="menu_box"></div>
+        </div>
+        </div>
+        <div id="two_div">
+            <span>
+                <div>
+                    <input type="text" id="recommend_pizza">
+                </div>
+                <button type="button" id="submit_button" onclick="add_item()">Recommend a pizza</button>
+            </span>
+            <span>
+                <div id="cards_div"></div>
+            </span>
+        </div>
+    </body>
+</html>

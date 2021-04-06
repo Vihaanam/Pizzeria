@@ -1,0 +1,85 @@
+body {
+    background-image: url("Granite.png");
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    color: yellow;
+}
+h2 {
+    font-size: 25px;
+    color: yellow;
+}
+#about_photo {
+    float: left;
+    padding-top: 10px;
+}
+#button_show {
+    background-color: yellow;
+    font-size: 25px;
+    margin-top: 25px;
+    padding: 5px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-left-color: khaki;
+    border-top-color: khaki;
+    border-right-color: yellow;
+    border-bottom-color: yellow;
+}
+#contain_menu {
+    margin-left: 200px;
+    float: right;
+    text-align: left;
+    width: 550px;
+}
+#menu_box {
+    width: 200px;
+    color: yellow;
+    font-size: 20px;
+}
+#main_div {
+    display: inline-block;
+}
+#two_div {
+    margin-top: 100px;
+}
+#recommend_pizza {
+    background: none;
+    color: yellow;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-color: white;
+    border-bottom-width: 3px;
+    width: 170px;
+    font-size: 25px;
+}
+#submit_button {
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    width: 170px;
+    border-width: 3px;
+    border-left-color: orange;
+    border-top-color: orange;
+    border-bottom-color: red;
+    border-right-color: red;
+    margin: 10px;
+}
+.cards {
+    background-color: khaki;
+    width: 200px;
+    padding: 1px;
+    margin: 10px;
+    text-align: center;
+    display: grid;
+}
+.card {
+    float: right;
+    margin-top: -120px;
+    margin-right: 175px;
+}
+.cards img {
+    height: 50px;
+    margin: auto;
+}
