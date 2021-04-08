@@ -14,7 +14,7 @@ function add_item() {
     var item = document.getElementById("recommend_pizza").value;
     menu_list.push(item);
     menu_list.sort();
-    htmldata2 = "<section class='card'>";
+    htmldata2 = "<section>";
     for (j = 0; j<menu_list.length; j++) {
         htmldata2 = htmldata2 + "<div class='cards'>" + "<img height='20' src='https://toppng.com/uploads/preview/pizza-png-11553999379orjd1miyt1.png'>" + menu_list[j] + "</div>";
     }
