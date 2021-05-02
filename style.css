@@ -5,10 +5,12 @@ body {
 h1 {
     font-size: 40px;
     color: yellow !important;
+    font-family: 'New Tegomin', serif !important;
 }
 h2 {
     font-size: 25px;
     color: yellow !important;
+    font-family: 'New Tegomin', serif !important;
 }
 #about_photo {
     float: left;
@@ -44,15 +46,23 @@ h2 {
     margin-top: 100px;
 }
 #recommend_pizza {
-    background: none;
-    color: yellow;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-top-width: 0px;
-    border-bottom-color: white;
+    color: orangered;
+    text-decoration-style: solid;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-color: red;
+    border-radius: 10px;
     border-bottom-width: 3px;
     width: 170px;
     font-size: 25px;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    border-left-color: orangered;
+    border-right-color: orangered;
+    border-top-color: orangered;
 }
 #submit_button {
     background-color: red;
